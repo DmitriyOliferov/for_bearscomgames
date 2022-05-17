@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_news_feed"
+            android:icon="@drawable/ic_news_feed"
+            android:title="Новости"/>
+        <item android:id="@+id/nav_diagram"
+            android:icon="@drawable/ic_diagram"
+            android:title="Динамическая диаграмма"/>
+        <item android:id="@+id/nav_diagram_circle"
+            android:icon="@drawable/ic_circle_diagram"
+            android:title="Динамическая диаграмма круглая"/>
+    </group>
+</menu>

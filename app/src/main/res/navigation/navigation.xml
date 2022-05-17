@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/nav_news_feed">
+
+
+    <fragment
+        android:id="@+id/nav_news_feed"
+        android:name="com.oliferov.test_for_bearscomgames.presentation.screens.NewsFeetFragment"
+        android:label="fragment_news_feet"
+        tools:layout="@layout/fragment_news_feed" />
+    <fragment
+        android:id="@+id/nav_diagram"
+        android:name="com.oliferov.test_for_bearscomgames.presentation.screens.DynamicDiagramFragment"
+        android:label="fragment_dynamic_diagram"
+        tools:layout="@layout/fragment_dynamic_diagram" />
+    <fragment
+        android:id="@+id/nav_diagram_circle"
+        android:name="com.oliferov.test_for_bearscomgames.presentation.screens.CircleDiagramFragment"
+        android:label="fragment_circle_diagram"
+        tools:layout="@layout/fragment_circle_diagram" />
+</navigation>
